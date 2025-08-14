@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MoodBoard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌟 MoodBoard</h1>
+    <p>Select your mood today:</p>
+    <div class="mood-buttons">
+      <button onclick="setMood('happy')">😊 Happy</button>
+      <button onclick="setMood('sad')">😢 Sad</button>
+      <button onclick="setMood('angry')">😠 Angry</button>
+      <button onclick="setMood('calm')">😌 Calm</button>
+    </div>
+    <div id="quote" class="quote-box"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
